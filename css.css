@@ -168,3 +168,29 @@ height: 100px;
 #gallery img:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .ikonice-sekcija {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}
